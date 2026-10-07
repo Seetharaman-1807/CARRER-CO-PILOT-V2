@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+*/node_modules/
+venv/
+*/venv/
+env/
+*/env/
+ENV/
+
+# Python cache & artifacts
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+*/.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+backend/*.db
+backend/*.sqlite3
+
+# Environment & secrets
+.env
+backend/.env
+frontend/.env
+*.local
+
+# Build output
+dist/
+frontend/dist/
+build/
+*.egg-info/
+.eggs/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
